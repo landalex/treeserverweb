@@ -1,0 +1,15 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Web interface for the tree server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Land",
+  "license": "MIT",
+  "dependencies": {
+    "mime": "~1.2.7",
+    "socket.io": "~1.5.1"
+  }
+}
