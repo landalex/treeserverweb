@@ -14,7 +14,7 @@ var server = http.createServer(function(request, response) {
 	serveStatic(response, absPath);
 });
 
-var PORT_NUMBER = 80;
+var PORT_NUMBER = 8080;
 server.listen(PORT_NUMBER, function() {
 	console.log("Server listening on port " + PORT_NUMBER);
 });
